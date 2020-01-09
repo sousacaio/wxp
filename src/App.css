@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap');
+.iniciar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  z-index: 1;
+  width: 110%;
+  color: white;
+  justify-content: flex-start;
+  font-size: 130%;
+  margin: 0;
+  background-image: linear-gradient(to right, #75b276, #287b29);
+  width: 100%;
+  height: 100%;
+  border-radius: 0px 10px 10px 0px;
+  min-width: 100%;
+}
+
+.iniciar img {
+  margin: 0px;
+  width: 50%;
+  height: 100%;
+}
+
+.barra {
+  border: linear-gradient(to left, #276cd4, #428ade);
+  background-image: linear-gradient(to left, #276cd4, #428ade);
+  width: 100%;
+  height: 100%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.relogio {
+  width: 100%;
+  height: 100%;
+  font-size: 150%;
+  justify-content: center;
+  background-image: linear-gradient(to left, #1284de, #23c5f4);
+  display: flex;
+  color: #fff;
+  font-family: 'Big Shoulders Display', cursive;
 }
